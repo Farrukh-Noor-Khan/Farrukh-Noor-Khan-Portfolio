@@ -1,0 +1,10 @@
+
+@tailwind base; @tailwind components; @tailwind utilities;
+.card{@apply bg-panel/80 backdrop-blur rounded-2xl border border-white/5 shadow-glow;}
+.badge{@apply inline-flex items-center gap-1 px-2 py-1 rounded-full text-[11px] font-medium bg-white/5 border border-white/10;}
+.section{@apply max-w-6xl mx-auto px-4 sm:px-6 md:px-8;}
+.section-title{@apply text-xs uppercase tracking-[0.2em] text-slate-400;}
+.kbd{@apply px-1.5 py-0.5 rounded border border-white/10 bg-white/5 text-[10px];}
+.gradient-hero{background:radial-gradient(600px 300px at 10% -20%, rgba(157,123,255,.15), transparent 60%),
+radial-gradient(600px 300px at 90% -10%, rgba(79,195,255,.12), transparent 60%),
+radial-gradient(400px 200px at 50% 10%, rgba(42,245,165,.08), transparent 55%);}
